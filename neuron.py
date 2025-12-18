@@ -23,3 +23,5 @@ print("=========")
 
 y_pred = model(X)
 print(y_pred)
+
+# torch.save(model.state_dict(), "linear_model.pth")
